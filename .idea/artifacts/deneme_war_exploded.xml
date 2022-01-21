@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="deneme:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/deneme_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="deneme" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="KotlinJavaRuntime" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/ojbd8/ojdbc8.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/ojbd8/ucp.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="deneme/web/Web" />
+    </root>
+  </artifact>
+</component>
